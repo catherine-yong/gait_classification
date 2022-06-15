@@ -16,6 +16,8 @@ Ce qui a été modifié par rapport au code sur le git de AbnerHqC :
 utilisation de imageio.imwrite au lieu de scisc.imsave 
 
 ## config.py : 
+Il faut changer dataset_path avec le chemin indiqué dans le terminal
+
 
 ## train.py : 
 
