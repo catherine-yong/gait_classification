@@ -1,5 +1,7 @@
-# gait classification
+# Gait classification
 # Projet au sein du stage de 4A à Capgemini
+
+Nous cherchons à définir la tranche d'âge d'une personne ainsi que son sexe à partir de sa démarche.
 
 Code basé sur https://github.com/AbnerHqC/GaitSet 
 
@@ -22,3 +24,7 @@ utilisation de imageio.imwrite au lieu de scisc.imsave
 ## Dataset : 
 CASIA-B : http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp
 
+Par la suite : 
+- Comment estimer la taille de quelqu'un avec une caméra classique ? 
+- Est-ce qu'une caméra classique suffit ? 
+- Comment transformer une photo/vidéo en "silhouette", en format comme dans CASIA-B ?
