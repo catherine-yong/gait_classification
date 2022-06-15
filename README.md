@@ -4,6 +4,7 @@
 Nous cherchons à définir la tranche d'âge d'une personne ainsi que son sexe à partir de sa démarche.
 
 Code basé sur https://github.com/AbnerHqC/GaitSet 
+Article associé : https://www.researchgate.net/publication/328997464_GaitSet_Regarding_Gait_as_a_Set_for_Cross-View_Gait_Recognition
 
 ## pretreatment.py : 
 Pour exécuter : 
