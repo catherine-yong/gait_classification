@@ -24,7 +24,7 @@ utilisation de imageio.imwrite au lieu de scisc.imsave
 ## Dataset : 
 CASIA-B : http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp
 
-Par la suite : 
+## A faire
 - Comment estimer la taille de quelqu'un avec une caméra classique ? 
 - Est-ce qu'une caméra classique suffit ? 
 - Comment transformer une photo/vidéo en "silhouette", en format comme dans CASIA-B ?
