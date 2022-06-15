@@ -28,3 +28,4 @@ Par la suite :
 - Comment estimer la taille de quelqu'un avec une caméra classique ? 
 - Est-ce qu'une caméra classique suffit ? 
 - Comment transformer une photo/vidéo en "silhouette", en format comme dans CASIA-B ?
+- Interface graphique à faire 
