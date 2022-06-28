@@ -5,3 +5,4 @@ Nous cherchons à définir la tranche d'âge d'une personne ainsi que son sexe �
 
 Code basé sur : https://learnopencv.com/introduction-to-video-classification-and-human-activity-recognition/
 
+A exécuter sur Google Colab (sur Jupyter Notebook ça ne marche pas)
