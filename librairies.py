@@ -25,3 +25,15 @@ mp_pose = mp.solutions.pose
 
 image_height, image_width = 64, 64
 max_images_per_class = 8000
+
+seed_constant = 23
+np.random.seed(seed_constant)
+random.seed(seed_constant)
+tf.random.set_seed(seed_constant)
+
+all_classes_names = os.listdir('dataset_age')
+
+dataset_directory = "dataset_age"
+
+classes_list = ["child", "adult"]
+model_output_size = len(classes_list)

@@ -11,6 +11,3 @@ model_name = f'Model___Date_Time_{current_date_time_string}___Loss_{model_evalua
 
 # Saving your Model
 model.save(model_name)
-
-print("loss : " , model_evaluation_loss)
-print("accuracy : ", model_evaluation_accuracy)

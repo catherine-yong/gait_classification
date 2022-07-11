@@ -5,7 +5,7 @@ from librairies import *
 
 # Setting sthe Widow Size which will be used by the Rolling Averge Proces
 window_size = 1
-output_directory = "videos"
+output_directory = "videos_test"
 video_title = "to_predict"
 
 def frames_extraction(video_path):
@@ -58,7 +58,7 @@ def record_gait():
 
     size = (frame_width, frame_height)
 
-    result = cv2.VideoWriter('videos/to_predict.mp4',cv2.VideoWriter_fourcc(*'MJPG'),10, size)
+    result = cv2.VideoWriter('videos_test/to_predict.mp4',cv2.VideoWriter_fourcc(*'MJPG'),10, size)
 
 
     with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
