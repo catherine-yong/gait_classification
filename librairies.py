@@ -31,9 +31,9 @@ np.random.seed(seed_constant)
 random.seed(seed_constant)
 tf.random.set_seed(seed_constant)
 
-all_classes_names = os.listdir('dataset_age')
+all_classes_names = os.listdir('dataset')
 
-dataset_directory = "dataset_age"
+dataset_directory = "dataset"
 
-classes_list = ["child", "adult"]
+classes_list = ["child", "adult", "older_adult"]
 model_output_size = len(classes_list)

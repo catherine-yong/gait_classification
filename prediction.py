@@ -57,15 +57,15 @@ def make_average_predictions(model, video_file_path, predictions_frames_count):
 
 
 
-model = tf.keras.models.load_model("model_1.h5") 
+model = tf.keras.models.load_model("model_ok.h5") 
 
 print("Model Created Successfully!!")
 
 
 # record and save video
-record_gait()
+# record_gait()
 
 # make prediction
-make_average_predictions(model,'videos_test/to_predict.mp4' , 50)
+make_average_predictions(model,'videos_test/woman.mp4' , 25)
 
 print("Finished ...")
