@@ -19,6 +19,7 @@ def plot_metric(metric_name_1, metric_name_2, plot_name):
   # Adding legend to the plot
   plt.legend()
   
+  plt.savefig(plot_name, dpi = 200)
   plt.show()
 
 
@@ -35,7 +36,7 @@ early_stopping_callback = EarlyStopping(monitor = 'val_loss', patience = 15, mod
 model.compile(loss = 'categorical_crossentropy', optimizer = 'Adam', metrics = ["accuracy"])
 
 # Start Training
-model_training_history = model.fit(x = features_train, y = labels_train, epochs = 50, batch_size = 4 , shuffle = True, validation_split = 0.2, callbacks = [early_stopping_callback])
+model_training_history = model.fit(x = features_train, y = labels_train, epochs = 50, batch_size = 32 , shuffle = True, validation_split = 0.1, callbacks = [early_stopping_callback])
 
 
 plot_metric('loss', 'val_loss', 'Total Loss vs Total Validation Loss')
